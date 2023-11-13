@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: EnemyShip
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"EnemyShip","summary":null,"pan":{"x":80.0,"y":33.0},"zoom":0.7820001,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-208.0,"y":-228.0},"guid":"c34f993c-f774-4f74-a408-3e7535cf0087","$version":"A","$type":"Unity.VisualScripting.Start","$id":"9"},{"coroutine":false,"defaultValues":{},"position":{"x":-232.0,"y":-124.0},"guid":"21169204-a083-4a44-b3c7-1464f74e4043","$version":"A","$type":"Unity.VisualScripting.Update"},{"defaultValues":{"input":{"$content":0.0,"$type":"System.Single"}},"position":{"x":-55.0,"y":21.0},"guid":"6656e8ca-273f-4377-9e20-d510e94d8596","$version":"A","$type":"Unity.VisualScripting.ScalarPerSecond","$id":"13"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"EnemyFloatSpeed","$type":"System.String"}},"position":{"x":-317.0,"y":36.0},"guid":"b5c55d90-c809-4f74-acff-188df24af3f3","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"15"},{"chainable":false,"parameterNames":["x","y","z","relativeTo"],"member":{"name":"Translate","parameterTypes":["System.Single","System.Single","System.Single","UnityEngine.Space"],"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null,"%x":{"$content":0.0,"$type":"System.Single"},"%y":{"$content":0.0,"$type":"System.Single"},"%z":{"$content":0.0,"$type":"System.Single"},"%relativeTo":{"$content":"World","$type":"UnityEngine.Space"}},"position":{"x":174.0,"y":-182.0},"guid":"2228a78f-2408-43ba-832a-16517bb94834","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"17"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"17"},"destinationKey":"enter","guid":"8abe1f74-bf8e-4617-b17d-b35d3c832207","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"output","destinationUnit":{"$ref":"17"},"destinationKey":"%x","guid":"c4cae7ab-6909-4026-b748-b5667b965d69","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"value","destinationUnit":{"$ref":"13"},"destinationKey":"input","guid":"3cbd31dd-941a-436b-88aa-de23014ba13b","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
